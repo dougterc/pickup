@@ -1,0 +1,166 @@
+nav {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    float: right;
+    vertical-align: middle;
+  }
+  
+  nav a {
+    float: left;
+    display: box;
+    color: #004aad;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav img {
+    float: right; 
+    height: 4%; 
+    width:10%;
+  }
+  
+  
+  nav a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  .header {
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .parallax {
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #mainlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding-top: 5%;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  .blue {
+    color: #5271ff;
+  }
+  
+  .white {
+    color:#FFFFFF;
+  }
+  
+  .blue-section {
+    background-color: #5271ff;
+    color: #FFFFFF;
+    padding: 2%;
+    min-height: 400px;
+  }
+  
+  .white-section {
+    background-color: #FFFFFF;
+    color: #5271ff;
+    padding: 2%;
+    min-height: 400px;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+  .column-left {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .column-right {
+    float: right;
+    width: 100%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .body-text {
+    font-family: Garamond;
+    font-size: 18pt;
+  }
+  
+  .sect-100 {
+    max-height: 100px;
+    min-height: 100px;
+  }
+  
+  .sect-300 {
+    max-height: 300px;
+    min-height: 300px;
+  }
+
+  .sect-550 {
+    max-height: 550px;
+    min-height: 550px;
+  }
+
+  .sect-880 {
+    max-height: 880px;
+    min-height: 880px;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  .round-image {
+    border-radius: 50%;
+  }
